@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <title>Tic Tac Toe</title>
+</head>
+<body>
+  <table id="game">
+    <tr><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td></tr>
+  </table>
+  <h4 id="message"></h4>
+  <button id="newgame">New Game</button>
+  <button id="cpumove">Let CPU play a move</button>
+  <button id="undoMove">Undo Move</button>
+  <label for="depthLevel">Set Depth Level:</label>
+  <input type="number" id="depthLevel" min="1" value="3">
+  <script src="script.js"></script>
+</body>
+</html>
